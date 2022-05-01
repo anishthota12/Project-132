@@ -1,7 +1,9 @@
 shoeStatus = "";
 shoeImage = "";
 
-function back() {window.location = "index.html";}
+function back() {
+    window.location = "index.html";
+}
 
 function preload() {
     shoeImage = loadImage("shoes.jpg");

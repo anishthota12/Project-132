@@ -37,7 +37,7 @@ h1 {
 }
 
 canvas {
-    border: 5px solid black;
+    border: 7px solid black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px hsl(0, 0%, 5%);
 }
