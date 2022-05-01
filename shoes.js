@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-    canvas = createCanvas(450, 300);
+    canvas = createCanvas(900, 600);
     objectDetector = ml5.objectDetector("cocossd", modelLoaded);
     document.getElementById("shoesStatus").innerHTML = "Status: Detecting Objects...";
 }
